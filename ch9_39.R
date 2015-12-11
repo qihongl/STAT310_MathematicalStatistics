@@ -19,7 +19,6 @@ totalBites = sum(data$X.bites.)
 Pi = data$numDays / 29 
 Ei = totalBites * Pi
     
-    
 # Oi - Ei 
 data$X.bites. - Ei
 barplot(data$X.bites. - Ei, main = 'Deviation: observed vs. actual bite counts')
@@ -36,3 +35,4 @@ crit = qchisq(.99, N-1)
 # 
 stats > crit
 # conclusion: we reject the H0 => exists lunar effect
+
