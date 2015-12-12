@@ -10,7 +10,7 @@ colnames(data)[3] <- 'numDays'
 # n = total counts 
 # Assume the bite rate is constant: P(bite at ith day) = #days / 29
 # e.g. Then sucide rate at 16,17,18 = 3 /29
-
+data
 totalBites = sum(data$X.bites.)
 
 
